@@ -1,14 +1,11 @@
 language: java
 jdk:
   - openjdk11
-  - openjdk10
-  - openjdk9
-
-before_install:
-  - echo "before install"
+#   - openjdk10
+#   - openjdk9
 
 install:
-  - echo "install"
+  mvn --version
 
 script:
   - echo "script"
