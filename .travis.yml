@@ -1,6 +1,8 @@
 language: java
-java:
-  - "11.0.5"
+jdk:
+  - openjdk11
+  - openjdk10
+  - openjdk9
 
 before_install:
   - echo "before install"
