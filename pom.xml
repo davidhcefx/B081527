@@ -1,0 +1,25 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  
+  <repositories>
+    <repository>
+      <id>B081527</id>
+      <name>B081527</name>
+      <url>https://github.com/davidhcefx/B081527</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  
+  <groupId>com.davidhcefx.app</groupId>
+  <artifactId>PriorityQueueTest</artifactId>
+  <version>1</version>
+  
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13</version>
+  </dependency>
+</project>
